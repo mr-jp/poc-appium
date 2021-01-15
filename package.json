@@ -1,0 +1,19 @@
+{
+  "name": "poc-device-farm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 30000 test/basic",
+    "clean": "rm -rf node_modules && rm -f package-lock.json && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.1.2",
+    "chromedriver": "^87.0.5",
+    "webdriverio": "^6.12.0"
+  }
+}
